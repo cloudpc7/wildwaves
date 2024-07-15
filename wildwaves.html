@@ -19,15 +19,18 @@
         const WATERSLIDE_MIN_HEIGHT = 48;
         const LAZY_RIVER_MIN_HEIGHT = 36;
         let attraction;
+        let selected_attraction;
 
         function ParkAttraction(attraction) { // created a park attraction function to verify which attraction was selected. 
+
             if(attraction === "wave") {
-                attraction = "Wave Pool"
+                selected_attraction = "Wave Pool"
             } else if (attraction === "river") {
-                attraction = "Lazy River";
+                selected_attraction = "Lazy River";
             } else {
-                attraction = "Water Slide";
+                selected_attraction = "Water Slide";
             }
+            return selected
         }
 
         function checkHeight(attraction, height) { // provide a function to check height and attraction type
@@ -56,9 +59,9 @@
             const allow = checkHeight(attraction, height); // check the height and attraction type 
 
             if(allow) { // if allow is true create an alert for which attraction they can ride on
-                alert(`You are allowed to ride the attraction ${attraction}`);
+                alert(`You are allowed to ride the attraction ${selected_attraction}`);
             } else if(!allow) { // if not allowed alert the user they are unable to ride
-                alert(`You are unable to ride the attraction ${attraction}`);
+                alert(`You are unable to ride the attraction ${selected_attraction}`);
             }
         }
 
