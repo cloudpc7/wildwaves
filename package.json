@@ -1,0 +1,23 @@
+{
+  "name": "wildwaves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudpc7/wildwaves.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudpc7/wildwaves/issues"
+  },
+  "homepage": "https://github.com/cloudpc7/wildwaves#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
