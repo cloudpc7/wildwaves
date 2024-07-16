@@ -1,3 +1,4 @@
+//carousel javascript
 
 //create global variables.
 const WAVE_POOL_MIN_HEIGHT = 42; 

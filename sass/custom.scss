@@ -1,1 +1,96 @@
+@import "https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap";
+
+$font-family-sans-serif: "Kulim Park", sans-serif;
+$headings-margin-bottom: 0;
+$body-bg: #AEEDE5;
+$body-color: #5D5D5D;
+$paragraph-margin-bottom: 0;
+$padding-right: 0;
+$container-padding-x: 0;
+
+// #064554;
+//#27D5FE;
+
+.container {
+
+    .header {
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .carousel {
+        padding: 1.5rem 0;
+
+        img {
+            max-height: 12.25rem;
+        }
+    }
+
+    .btn {
+        --bs-btn-bg: #064554;
+        --bs-btn-border-color: none;
+        --bs-btn-color: #b2b2b2;
+        --bs-btn-hover-bg: #b2b2b2;
+        --bs-btn-hover-color: #fff;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    .container {
+
+        .header {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+
+        .row {
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+        }
+
+        .carousel {
+            img {
+                max-height: 24.375rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 70rem) {
+    .container {
+
+        .header {
+            h1 {
+                font-size: 4.5;
+            }
+        }
+
+        .row {
+            h2 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+        }
+
+        .carousel {
+            img {
+                max-height: 33.625rem;
+            }
+        }
+    }
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
